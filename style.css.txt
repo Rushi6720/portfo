@@ -32,11 +32,24 @@ h2 {
 }
 .profile-img {
   width: 150px;
-  height: 150px;
+  height: auto;
   border-radius: 50%;
-  object-fit: cover;
-  margin-bottom: 1rem;
+  display: block;
+  margin: 20px auto;
 }
+
+.hero {
+  background-image: url("rushi.jpg");
+  background-size: cover;
+  background-position: center;
+}
+.hero {
+  background-image: url("rushi.jpg");
+  background-size: contain;     /* Or use '100% auto' */
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
 
 .socials {
   text-align: center;
